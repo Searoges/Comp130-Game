@@ -4,7 +4,8 @@
 
 player::player()
 {
-	SDL_Surface* image = IMG_Load("dreadnought.png");
+	SDL_Surface *surface;
+	surface = IMG_Load();
 
 }
 

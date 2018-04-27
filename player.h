@@ -1,4 +1,4 @@
-#include <SDL.h>
+
 #pragma once
 class player
 {
