@@ -4,8 +4,9 @@
 
 player::player()
 {
-	SDL_Surface *surface;
-	surface = IMG_Load();
+	SDL_Surface *plyrSprite = nullptr;
+	plyrSprite = IMG_Load("dreadnought.png");
+
 
 }
 
