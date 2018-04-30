@@ -69,6 +69,13 @@ bool Game::init(const char * title, int xpos, int ypos, int width, int height, i
 	isRunning = true;
 	cout << "SDL init success \n";
 
+	void player::setSprite();
+	if (player::plyrSprite == NULL)
+		std::cout << "Image load error: " << SDL_GetError << std::endl;
+	else
+		SDL_BlitSurface(player::plyrSprite, NULL, windowSurface);
+
+
 	return true;
 }
 
